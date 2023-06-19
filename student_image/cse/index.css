@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+     #zoom-In:hover  {
+     transform: scale(1.2);
+     cursor: pointer;
+ }
+ .image {
+     display: block;
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+ }    
+#zoom-In {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+img{
+    height: 200px;
+}
+/*.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+    height: 100%;
+    width: 100%;
+  }/*

@@ -1,0 +1,150 @@
+#title{
+    background-color: #b5d2d3;
+    color: rgb(59, 27, 27);
+    min-height: auto;
+    height: 800px;
+}
+.container-fluid{
+    background-color: #939458;  
+    height: 85px;
+}
+
+/*
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}*/
+.container-fluid {
+    padding: 0% 3%;;
+}
+/*
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h2{
+    font-family:  "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}*/
+p{
+    color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu"; 
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    color: #191e5c;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: black;
+
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    margin-left: 16%;
+    margin-top: 200px;
+    margin-bottom: 20%;
+    width: 68%;
+
+    
+}
+#features{  
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+}
+
+
+    
+
+
+
+
+
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #277576;
+    color: rgb(20, 5, 5);
+}
+.testimonials-img{
+    width: 46%;
+    height: 46%;
+    border-radius: 10%;
+    
+}
+.testimonials2-img{
+    width: 76%;
+   
+    border-radius: 10%;
+    
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+
+
+
+
+.socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 3rem 0;
+    }
+
+    .socials li {
+      margin: 0 10px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .socials a i {
+      font-size: 1.1rem;
+      transition: color .4s ease;
+
+    }
+
+    .socials a:hover i {
+      color: aqua;
+    }
+   
+    
+
+
+
+
+    

@@ -1,0 +1,111 @@
+#title{
+    background-color: #b2c2c7;
+    color: rgb(161, 129, 129);
+    height: 900px;
+}
+
+.container-fluid2{
+    padding: 7% 15%;
+}
+.page2{
+    background-color: #8f8f8f;
+    height: 600px;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+     font-size: 3.3em;
+     
+      
+}
+h2{
+    font-family: "Montserrat-Black";
+    color: beige;
+    font-size: 2.8em;
+    text-align: center;
+}
+h3{
+    font-family: "Montserrat-Black";
+    color: rgb(38, 35, 32);
+    text-align: center;
+
+}
+h4{
+    font-family: "Montserrat-Black";
+    color: rgb(28, 28, 23);
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 0% 3%;;
+}
+
+p{
+    color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu"; 
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 8px;
+    color: #040507;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Dark";
+    color: black;
+
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    margin-left: 16%;
+    margin-top: 140px;
+    width: 68%;
+
+    
+}
+    
+.student-photo{
+      margin-left: 15px;
+    
+     
+}
+.student-photo img{
+    width: 100%;
+}
+.room-photo{
+    margin-left: 17px;
+
+}
+.room-photo img{
+    width: 100%;
+    height: auto;
+}
+.report-photo{
+    margin-top: 30px;
+  margin-left: 35px;
+
+}
+.report-photo img{
+    width: 100%;
+    height: auto;
+}
+
+
+    .invigilator-photo{
+        margin-top: 30px;
+        margin-left: 10px;
+
+    }
+    .invigilator-photo img{
+        width: 100%;
+    }

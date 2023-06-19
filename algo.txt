@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <style>
+           div1{
+            
+            display: flex;
+            margin-left: 30px
+           } 
+           div2{
+            margin-top: 100px;
+            padding: 17px;
+            border: 4px solid black;
+            border-radius: 5%;
+            font-size: 1.7rem;
+            background-color: pink;
+            font-weight: bold;
+           }
+           body{
+            background-color: green;
+           }
+           .red{
+            font-size: 1.2rem;
+           }
+        </style>
+    </head>
+    <body>
+
+      <CENTER>
+        <BR><BR></BR></BR>
+        <div class="red">
+      <h1>FINAL REPORT SEAT OF EXAMINATION</h1>
+      </div>
+      <hr>
+      </CENTER>
+    </body>
+    </html>
+<?php
+
+$con=new mysqli("localhost","root","","pbl2project");
+$sql="select * from room";
+$result=$con->query($sql);
+while($rows=$result->fetch_assoc()){
+$n=$rows['row'];
+$cn=$rows['col'];
+display($n,$cn);
+}
+        function display($n,$cn){
+          for($row=1;$row<=$n;$row++){
+            echo "<div1>";
+                  if($row%2==0){
+                    echo "<div2>";
+                        for($i=($row*$cn);$i>($cn*$row)-$cn;$i--){
+                        echo get_seat_no($i)."<br>";
+                       }
+                       echo "</div2>";
+                        echo "</div1>";
+                    }
+                  else{
+                    echo "<div2>";
+                      for($i=($row-1)*$cn+1;$i<=$row*$cn;$i++)
+                      { echo " ".get_seat_no($i)."<br>";}
+                      echo "</div2>";
+                    }
+                  }
+                  echo " ";
+              }          
+              function get_seat_no($a)
+              {
+                  $con=new mysqli("localhost","root","","pbl2project");
+                  $sql="select * from stdent_data where id=".$a;
+                  $result = $con->query($sql);
+                  while($row = mysqli_fetch_assoc($result))
+                  {
+                      echo $row['Enrollment_no']; }
+              }
+?>

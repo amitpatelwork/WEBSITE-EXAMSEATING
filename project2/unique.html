@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var per = prompt("what is your CGPA ");
+    var language = prompt("python , c , html , css , 1 t0 100 ");
+    var communication = prompt("communication skills");
+    if((per>=30)&&(language>=30)&&(communication>=30)){
+       if((per>80)&&(language>80)&&(communication>80)){
+           document.write("TCS");
+       } 
+       else{
+           
+       }
+    }
+    else{
+        document.write("Not eligible");
+    }
+
+    </script>
+</body>
+</html>
+    if((per>80)&&(per<=100))
+    {
+        if(language>80)
+        {
+         if((communication>80)&&(communication<=100))
+         {
+                document.write("you are eligible for TCS");
+            }
+        }
+
+    }
+   else if(per>60&&per<=80){
+        if(language>60&&language<=80){
+         if(communication>60&&communication <=80){
+                document.write("you are eligible for infosys");
+            }
+        }
+    }
+   else if(per>40&&per<=60){ 
+        if(language>40&&language<= 60){
+         if(communication>40&&communication <=40){
+                document.write("you are eligible for wipro");
+            }
+        }
+    }
+    else{
+        document.write("thanks")
+ }
+    var a = [
+        {name:"TCS",marks:60},
+        {name:"Infosys",marks:10}

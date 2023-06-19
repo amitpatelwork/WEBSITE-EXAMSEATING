@@ -1,0 +1,34 @@
+
+  
+  #logo img{
+  border-radius: 100%;
+    height: 10%;
+    width: 9%;
+  }
+   #testimonials{
+  
+      text-align: center;
+      background-color: #dfded3;
+      color: rgb(58, 47, 47);
+  }
+  .testimonials-img{
+      width: 36%;
+      height: 36%;
+      border-radius: 6%;
+      margin: 40px;
+  }
+  #press{
+      background-color: #ef8172;
+      text-align: center;
+      padding: 3%;
+  }
+  .press-logo{
+      width: 15%;
+      margin: 20px 20px 50px;
+  }
+  .carousel-item{
+      padding: 7% 15%;
+  }
+  
+  
+  
